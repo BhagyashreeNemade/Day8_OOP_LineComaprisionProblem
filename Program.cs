@@ -1,11 +1,12 @@
-﻿namespace LineComparison
+﻿namespace Day8_OOP_LineComparisionProblem
 {
     class Program
     {
-        public static double length1, length2;
         static void Main(string[] args)
         {
             Console.WriteLine("Wellcome to the line comparison");
-        }
+            calculatinglinelength a = new calculatinglinelength();
+            a.Calculatinglinelength();
+        }   
     }
 }
