@@ -7,8 +7,10 @@
             Console.WriteLine("Wellcome to the line comparison");
             //calculatinglinelength a = new calculatinglinelength();
             //a.Calculatinglinelength();
-            LinesisEqualorNot b = new LinesisEqualorNot();
-            b.linesequalornot();
+            //LinesisEqualorNot b = new LinesisEqualorNot();
+            //b.linesequalornot();
+            TwoLinesComparison c = new TwoLinesComparison();
+            c.Comparison();
         }   
     }
 }
